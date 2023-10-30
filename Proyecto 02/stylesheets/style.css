@@ -1,0 +1,79 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#94a1b2;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size:x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#7f5af0;
+  text-align: center; 
+}
+
+.subtitleTwo {
+  font-size:x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#2cb67d;
+  text-align: center; 
+}
+
+.name {
+  font-size:x-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#7f5af0;
+  color:#16161a;
+  text-align: center; 
+}
+
+.column{
+  background-color:#7f5af0;
+
+}
+
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+img {
+ max-width: 25%;
+ max-height: 25%;
+ border-radius: 50%;
+}
+
+.tableOne {
+  background-color: #16161a;
+  color: white;
+  border: hidden;
+  width: 100%;
+}
+
+h1 {display: none;}
+
+
+.right {
+  color:#16161a;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: 50%; 
+  vertical-align: middle; 
+}
+
+.center {
+  text-align: center; /* Centra horizontalmente el contenido en la celda */
+  vertical-align: middle; /* Centra verticalmente el contenido en la celda */
+}
+
+.pages {
+  background-color: #16161a;
+border: none;
+}
